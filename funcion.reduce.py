@@ -4,8 +4,8 @@ from functools import reduce
 
 clearConsole()
 
-list_num = [1,2,3,4,5]
+list_num = [1,2,3,4,5,6,7]
 
-impares = reduce(lambda a, b: a * b, list_num)
+reducir = reduce(lambda a, b: a * b, list_num)
 
-print(impares)
+print(reducir)

@@ -10,4 +10,9 @@ name = input('Digite una palabra: ')
 
 name = name.lower()
 
-print(palindromo(name))
+if palindromo(name) == True:
+    print('Soy un palindromo')
+else:
+    print('No soy un palindromo')
+
+#print(palindromo(name))

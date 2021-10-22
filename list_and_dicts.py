@@ -27,11 +27,14 @@ def main():
 
     clearConsole()
 
-    for i in list_dicts:
-        print(i)
+    """ for i in list_dicts:
+        print(i) """
 
-    for key, value in dict_list.items():
-        print(key, ' : ' , value)
+    """ for key, value in dict_list.items():
+        print(key, ' : ' , value) """
+
+    dato = list(filter(lambda nombre: nombre['edad'] > 35, list_dicts))
+    print(dato)
 
 if __name__ == '__main__':
     main()
