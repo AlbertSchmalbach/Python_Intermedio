@@ -1,13 +1,4 @@
-import os
-
-def clearConsole():
-    command = 'clear'
-    if os.name in ('nt', 'dos'):  # If Machine is running on Windows, use cls
-        command = 'cls'
-    os.system(command)
-
-
-
+from Clear import clearConsole
     
 def main():
     list_dicts = [

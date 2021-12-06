@@ -74,8 +74,15 @@ DATA = [
 ]
 
 def run():
-    all_python_devs=[worker['name'] for worker in DATA if worker['language']=='python']
-    all_python_workes =[worker['name'] for worker in DATA if worker['organization'] == 'Platzi']
+    #all_python_devs=[worker['name'] for worker in DATA if worker['language']=='python']
+    #all_python_workes =[worker['name'] for worker in DATA if worker['organization'] == 'Platzi']
+
+    all_python_devs = list(filter(lambda worker:worker['language']=='python', DATA))
+    all_python_devs = list(map(lambda worker:worker['name'], all_python_devs))
+
+    all_python_workes = list(filter(lambda worker:worker['organization']=='Platzi', DATA))
+    all_python_workes = list(map(lambda worker:worker['name'], all_python_workes))
+
 
     adult = list(filter(lambda worker:worker['age']>18, DATA))
     adult = list(map(lambda worker: worker['name'], adult))
@@ -85,7 +92,7 @@ def run():
     """ for worker in all_python_devs:
         print(worker) """
 
-    for worker in old_people:
+    for worker in all_python_workes:
         print(worker)
 
 if __name__=='__main__':
