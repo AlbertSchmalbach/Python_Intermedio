@@ -35,10 +35,10 @@ def main():
     #print(peces)
 
     number = list(filter(lambda pescadito : pescadito["tank number"]< 20, aquarium_creatures))
-    print(number)
+  
 
-    especie = list(map(lambda pez : pez["species"]== "shark", aquarium_creatures))
-    #print(especie)
+    especie = list(map(lambda pez : print(pez['name']) if pez["species"]== "shark" else 0, number))
+    print(especie)
 
 if __name__=='__main__':
     main()
