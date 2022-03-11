@@ -47,11 +47,7 @@ def probar_figura(figura):
     print('Area: ', figura.calc_area())
     print('Perimetro: ', figura.calc_perimetro())
 
-#PRUEBA
-rect1 = Rectangulo('Rectangulo', 4, 8)
-probar_figura(rect1)
-circle1 = Circulo('Circulo', 4)
-probar_figura(circle1)
+
 
 
         
