@@ -31,7 +31,7 @@ def modificar_datos():
         archivo = open('texto.txt', 'r+')
         texto = archivo.readlines()
         print(texto)
-        texto[1] = 'Hola Alex Roel\n'
+        texto[1] = 'Hola Alberto Schmalbach\n'
         #archivo.write('\nHola Juan')
         print(texto)
         archivo.seek(0)
@@ -47,7 +47,7 @@ def eliminar_datos():
     archivo.close()
 
 #escribir_archivo()
-#leer_archivo()
+leer_archivo()
 #agregar_datos()
 #modificar_datos()
-eliminar_datos()
+#eliminar_datos()
