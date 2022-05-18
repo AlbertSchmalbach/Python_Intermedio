@@ -1,0 +1,7 @@
+ALGORITMO: Secuencia de pasos logicos.
+CODIGO: Estructura grafica o escrita en determinado lenguaje.
+LENGUAJE: En programacion, estructura que nos permite programar un sistema.
+PROGRAMA: Componente logico de un sistema para determinada tarea.
+PROGRAMAR: Darle instrucciones a un sistema.
+
+
