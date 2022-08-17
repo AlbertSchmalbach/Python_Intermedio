@@ -49,7 +49,7 @@ import os
 
 # 3 - CREAR ARCHIVO
 
-# Cree un archivo llamado "myfile.txt
+# Cree un archivo llamado "myfile.txt"
 # file = open("myfile.txt", "x")
 
 # Cree un nuevo archivo si no existe

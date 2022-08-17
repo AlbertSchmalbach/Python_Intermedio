@@ -1,0 +1,10 @@
+>>> from pruebas_doctring import suma
+
+>>> suma(2,3)
+5
+
+>>> suma(12,3)
+15
+
+>>> suma(12,8)
+20

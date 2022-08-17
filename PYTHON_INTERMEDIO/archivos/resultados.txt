@@ -1,0 +1,10 @@
+4 al cuadrado es: 16
+12 al cuadrado es: 144
+7 al cuadrado es: 49
+5 al cuadrado es: 25
+2 al cuadrado es: 4
+3 al cuadrado es: 9
+20 al cuadrado es: 400
+8 al cuadrado es: 64
+9 al cuadrado es: 81
+15 al cuadrado es: 225
